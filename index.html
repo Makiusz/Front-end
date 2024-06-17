@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Bilety lotnicze</title>
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave&display=swap&subset=latin-ext" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container">
+        <div id="header">
+             <div id="center">
+          <img src="airplan.png"/>
+          <p>Bilety lotnicze</p>
+            </div>
+          </div>
+        <div id="nav">
+          <ul>
+            <li><p>strona główna</p></li>
+            <li><p>rezerwacja</p></li>
+            <li><p>zwrot</p></li>
+            <li><p>kontakt</p></li>
+            <li><p>pomoc</p></li>
+            <li><p>o nas</p></li>
+          </ul>
+        </div>
+        <div id="main">
+            <form action=" " method="get">
+        
+                <input type="radio" name="opcja" value="1" checked="checked"/>w jedną stronę
+                <tr><input type="radio" name="opcja" value="2" checked="checked"/>w dwie strony
+                <tr><input type="radio" name="opcja" value="3" checked="checked"/>podróż wieloodcinkowa
+
+       <br/>
+        
+        <div id="pasek">
+        <select name="miejscowości">
+	       <option value="1">Kraków</option>
+	       <option value="2">Katowice</option>
+	       <option value="3" selected="selected" hidden="hidden">Z</option>
+            <option value="4">Gdańsk</option>
+	       <option value="5">Gdynia</option>
+            <option value="6">Sopot</option>
+	       <option value="7">Szczecin</option>
+            <option value="8">Łazy</option>
+	       <option value="9">Łagiewniki</option>
+            <option value="10">Warszawa</option>
+        </select>
+         <select name="do">
+         
+	       <option value="1">Kraków</option>
+	       <option value="2">Katowice</option>
+	       <option value="3" >Warszawa</option>
+            <option value="4">Gdańsk</option>
+	       <option value="5">Gdynia</option>
+            <option value="6">Sopot</option>
+	       <option value="7">Szczecin</option>
+            <option value="8">Łazy</option>
+	       <option value="9">Łagiewniki</option>
+            <option value="10" selected="selected" hidden="hidden">do</option>
+        </select>
+         <select name="miejscowości">
+	       <option value="1">02.12.2019</option>
+	       <option value="2">03.12.2019</option>
+	       <option value="3" selected="selected" hidden="hidden">Data wylotu</option>
+            <option value="4">04.12.2019</option>
+	       <option value="5">05.12.2019</option>
+            <option value="6">06.12.2019</option>
+	       <option value="7">07.12.2019</option>
+            <option value="8">08.12.2019</option>
+	       <option value="9">09.12.2019</option>
+            <option value="10">10.12.2019</option>
+        </select>
+         <select name="miejscowości">
+	       <option value="1">02.12.2019</option>
+	       <option value="2">03.12.2019</option>
+	       <option value="3" selected="selected" hidden="hidden">Data przylotu</option>
+            <option value="4">04.12.2019</option>
+	       <option value="5">05.12.2019</option>
+            <option value="6">06.12.2019</option>
+	       <option value="7">07.12.2019</option>
+            <option value="8">08.12.2019</option>
+	       <option value="9">09.12.2019</option>
+            <option value="10">10.12.2019</option>
+        </select>
+         <select name="miejscowości">
+	       <option value="1">ekonomiczna</option>
+	       <option value="2">biznes</option>
+	       <option value="3" selected="selected" hidden="hidden">Wybierz klase</option>
+            <option value="4">pierwsza</option>
+	     
+        </select>
+        </div>
+        <br/>
+        
+        <input type="checkbox" name="grupa" value="3"/>tylko loty bezpośrednie
+        <button type="submit">Sprawdź</button>
+       
+    </form>
+        
+          </div>
+        <div id="adverb">
+            <p>reklama</p>
+        </div>
+        <div id="footer">
+        <p id="left">© Mateusz Płachta</p>
+        <p id="right">Interline - bilety lotnicze</p>
+        </div>
+    </div> 
+    </body>
+</html>
